@@ -1,0 +1,63 @@
+{
+  "first_name": "Elizabeth",
+  "last_name": "Desta",
+  "start": "Monday",
+  "rotation": {
+    "1": [
+      {
+        "shift_type": "DAY",
+        "days": 2
+      },
+      {
+        "shift_type": "NIGHT",
+        "days": 2
+      },
+      {
+        "shift_type": "BREAK",
+        "days": 4
+      }
+    ],
+    "2": [
+      {
+        "shift_type": "DAY",
+        "days": 2
+      },
+      {
+        "shift_type": "NIGHT",
+        "days": 2
+      },
+      {
+        "shift_type": "BREAK",
+        "days": 5
+      }
+    ],
+    "3": [
+      {
+        "shift_type": "DAY",
+        "days": 2
+      },
+      {
+        "shift_type": "BREAK",
+        "days": 2
+      },
+      {
+        "shift_type": "NIGHT",
+        "days": 2
+      },
+      {
+        "shift_type": "BREAK",
+        "days": 3
+      }
+    ],
+    "4": [
+      {
+        "shift_type": "DAY",
+        "days": 2
+      },
+      {
+        "shift_type": "NIGHT",
+        "days": 2
+      }
+    ]
+  }
+}
