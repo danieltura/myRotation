@@ -12,7 +12,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function DateCard(props) {
   return (
-    <Item style={{ color: props.color ? props.color : "black" }}>
+    <Item style={{ backgroundColor: props.color ? props.color : "white" }}>
       {props.Date}
     </Item>
   );
