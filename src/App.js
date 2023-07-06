@@ -1,13 +1,8 @@
+import * as React from "react";
+import Rotation from "./Rotation/Rotation";
+
 function App() {
-  return (
-    <div>
-      <header>
-        <p>
-          Edit It At <b>src/App.js</b> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+  return <Rotation />;
 }
 
 export default App;
