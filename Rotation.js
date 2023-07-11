@@ -1,8 +1,12 @@
+const { DateTime } = require("luxon");
+
 class Rotation {
   constructor(rotationJson) {
     this.first_name = rotationJson.first_name;
     this.last_name = rotationJson.last_name;
-    this.rotation_start_date = rotationJson.rotation_start_date;
+    this.rotation_start_date = DateTime.fromISO(
+      rotationJson.rotation_start_date
+    );
     this.rotation = rotationJson.rotation;
   }
 

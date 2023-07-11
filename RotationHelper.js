@@ -1,4 +1,3 @@
-const { DateTime } = require("luxon");
 const Rotation = require("./Rotation");
 const rotationFile = require("./test_rotation.json");
 
@@ -10,18 +9,25 @@ class RotationHelper extends Rotation {
   getRotationByMonth() {}
 
   generateRotation(num_of_days = 30) {
-    const keys = Object.keys(this.rotation);
-    let start_date = DateTime.fromISO("2023-07-03");
+    const keys = Object.keys(this.get_rotation());
+    let start_date = this.get_rotation_start_date();
     let format = "MMMM dd, yyyy";
+    let day = 0;
+    let key = 0;
 
-    for (const key of keys) {
-      for (const shift of this.rotation[key]) {
-        let type = shift.shift_type;
-        for (let index = 0; index < shift.days; index++) {
-          console.log(type + "--> " + start_date.toFormat(format));
-          start_date = start_date.plus({ days: 1 });
-        }
+    while (day < num_of_days) {
+      let index = key % keys.length; //rotation detection
+      let shifts = this.rotation[keys[index]];
+      let type = shifts.shift_type;
+
+      //loop over same shift type days
+      for (let shift = 0; shift < shifts.days; shift++) {
+        if (day >= num_of_days) break;
+        let current_day = start_date.plus({ days: day });
+        console.log(type + "--> " + current_day.toFormat(format));
+        day++;
       }
+      key++;
     }
   }
 }

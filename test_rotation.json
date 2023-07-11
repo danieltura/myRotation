@@ -1,63 +1,55 @@
 {
   "first_name": "Elizabeth",
   "last_name": "Desta",
-  "rotation_start_date": "Monday",
-  "rotation": {
-    "1": [
-      {
-        "shift_type": "DAY",
-        "days": 2
-      },
-      {
-        "shift_type": "NIGHT",
-        "days": 2
-      },
-      {
-        "shift_type": "BREAK",
-        "days": 4
-      }
-    ],
-    "2": [
-      {
-        "shift_type": "DAY",
-        "days": 2
-      },
-      {
-        "shift_type": "NIGHT",
-        "days": 2
-      },
-      {
-        "shift_type": "BREAK",
-        "days": 5
-      }
-    ],
-    "3": [
-      {
-        "shift_type": "DAY",
-        "days": 2
-      },
-      {
-        "shift_type": "BREAK",
-        "days": 2
-      },
-      {
-        "shift_type": "NIGHT",
-        "days": 2
-      },
-      {
-        "shift_type": "BREAK",
-        "days": 3
-      }
-    ],
-    "4": [
-      {
-        "shift_type": "DAY",
-        "days": 2
-      },
-      {
-        "shift_type": "NIGHT",
-        "days": 2
-      }
-    ]
-  }
+  "rotation_start_date": "2023-07-03",
+  "rotation": [
+    {
+      "shift_type": "DAY",
+      "days": 2
+    },
+    {
+      "shift_type": "NIGHT",
+      "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 4
+    },
+    {
+      "shift_type": "DAY",
+      "days": 2
+    },
+    {
+      "shift_type": "NIGHT",
+      "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 5
+    },
+    {
+      "shift_type": "DAY",
+      "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 2
+    },
+    {
+      "shift_type": "NIGHT",
+      "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 3
+    },
+    {
+      "shift_type": "DAY",
+      "days": 2
+    },
+    {
+      "shift_type": "NIGHT",
+      "days": 2
+    }
+  ]
 }
