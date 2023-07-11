@@ -32,6 +32,18 @@
       "days": 2
     },
     {
+      "shift_type": "NIGHT",
+      "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 3
+    },
+    {
+      "shift_type": "DAY",
+      "days": 2
+    },
+    {
       "shift_type": "BREAK",
       "days": 2
     },
