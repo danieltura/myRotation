@@ -62,6 +62,10 @@
     {
       "shift_type": "NIGHT",
       "days": 2
+    },
+    {
+      "shift_type": "BREAK",
+      "days": 5
     }
   ]
 }
